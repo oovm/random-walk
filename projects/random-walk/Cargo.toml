@@ -1,17 +1,17 @@
 [package]
-name = "sub_projects"
-publish = false
+name = "random-walk"
 version = "0.0.0"
 authors = ["Aster <192607617@qq.com>"]
 description = "..."
-repository = "https://github.com/oovm/sub_projects"
-documentation = "https://docs.rs/sub_projects"
+repository = "https://github.com/oovm/random-walk"
+documentation = "https://docs.rs/random-walk"
 readme = "Readme.md"
 license = "MPL-2.0"
 edition = "2021"
 exclude = ["package.json", "tests/**"]
 
 [dependencies]
+rand = "0.8.5"
 
 [dev-dependencies]
 
